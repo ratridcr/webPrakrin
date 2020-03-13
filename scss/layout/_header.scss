@@ -1,0 +1,29 @@
+.header{
+
+    &__1{
+        height: 100vh;
+        background-color: $biruDark;
+    }
+
+    &__2{
+       height: 100vh;
+       background-image: url(../img/header.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+    }
+
+    &__3{
+        height: 100vh;
+        background-color: $biruDark;
+    }
+
+    &__4{
+        height: 100vh;
+        background-image: url(../img/header2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 35%;
+     }
+     
+}
