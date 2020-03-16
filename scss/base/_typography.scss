@@ -1,10 +1,3 @@
-@font-face{
-    font-family:'silloam';
-    src: url(../font/silloam.otf);
-    font-family:'gobold';
-    src: url(../font/gobold.otf);
-}
-
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -58,12 +51,136 @@ body{
 
     &__6{
         display: block;
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 700;
-        font-size: 100px;
-        color: $biruDark;
-        -webkit-text-stroke: 1px $white;
-        letter-spacing: 1.5rem;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: $white;
+        letter-spacing: 1rem;
         text-align: right;
     }
+
+    &__7{
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 300;
+        letter-spacing: 2rem;
+        text-align: center;
+    }
+
+    &__8{
+        display: block;
+        font-size: 5rem;
+        font-weight: 900;
+        letter-spacing: 1rem;
+        text-align: center;
+        position: relative;
+    }
+    &__9{
+        display: block;
+        position: absolute;
+        top: 0.5rem;
+        left: 3rem;
+        font-size: 5rem;
+        font-weight: 900;
+        letter-spacing: 1rem;
+        text-align: center;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: $biruDark;
+    }
+
+    &__10{
+        display: block;
+        font-size: 5rem;
+        font-weight: 900;
+        letter-spacing: 1rem;
+        text-align: center;
+        position: relative;
+        color: $biruDark;
+    }
+    &__11{
+        display: block;
+        position: absolute;
+        top: 6.5rem;
+        left: 3rem;
+        font-size: 5rem;
+        font-weight: 900;
+        letter-spacing: 1rem;
+        text-align: center;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: $white;
+    }
+
+    &__12{
+        display: block;
+        color: $biruDark;
+        width: 7.5rem;
+        box-shadow:  0 3px 0 2px $biruDark;
+    }
+    &__13{
+        display: block;
+        font-size: 3rem;
+        font-weight: 900;
+        letter-spacing: .5rem;
+        text-align: center;
+        position: relative;
+        color: $biruDark;
+    }
+}
+
+.welcome{
+    text-transform: uppercase;
+    font-size: 5.5rem;
+    color: $white;
+    position: absolute;
+    z-index: 99;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+
+    &__1{
+        top: 45%;
+        left: 15%;
+        transform: rotate(270deg) translateY(-50%);
+    }
+
+    &__2{
+        top: 40%;
+        left: 0;
+        transform: rotate(270deg) translateY(-50%);
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: $white;
+    }
+}
+
+.absen{
+    display: block;
+    color: $biruDark;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.heading-secondary{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, $biruDark, $biruLight);
+    background-clip: text;
+    color: transparent;
+    letter-spacing: .5rem;
+    transition: all .3s;
+
+    &:hover{
+        transform: translateY(-.5rem) scale(1.1);
+        text-shadow: .5rem 1rem 2rem rgba($black, 0.2);
+    }
+}
+
+.paragraph{
+    text-align: justify;
+    color: $biruDark;
 }

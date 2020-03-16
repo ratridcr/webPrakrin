@@ -1,4 +1,5 @@
 .header{
+    position: relative;
 
     &__1{
         height: 100vh;
@@ -25,5 +26,14 @@
         background-size: cover;
         background-position: 35%;
      }
-     
+    
+     &__absen{
+         width: 5rem;
+         height: 5rem;
+         background-color: $white;
+         position: absolute;
+         bottom: 2rem;
+         right: -2.5rem;
+         z-index: 99;
+     }
 }

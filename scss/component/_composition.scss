@@ -1,0 +1,17 @@
+.composition{
+    position: relative;
+
+    &__smk{
+        height: 15rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%) rotateY(0deg);
+        transition: transform 0.8s ;
+        backface-visibility: hidden;
+        
+        &:hover{
+            transform: rotateY(180deg);
+        }
+    }
+
+}
